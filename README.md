@@ -52,7 +52,7 @@ MCA, 2018
 **[resume-jd-matcher](https://github.com/guptagautam768/resume-jd-matcher)**: explainable, RAG-based ranking of PDF resumes against a job description. It embeds resumes into PostgreSQL/pgvector, retrieves the relevant evidence, and asks an LLM for a score with strengths, gaps and a rationale. The same actions are exposed as an MCP server so AI agents can call them as tools.
 *Java 21 · Spring Boot 3.5 · Spring AI · OpenAI · pgvector · Flyway · Testcontainers · Docker · GitHub Actions*
 
-**[Monitoring-Prometheous-grafana-loki](https://github.com/guptagautam768/Monitoring-Prometheous-grafana-loki)**: observability proof of concept for a Spring Boot service. Prometheus scrapes Micrometer metrics, Promtail ships structured JSON logs to Loki, and a pre-provisioned Grafana dashboard shows both. One command to run with Docker Compose.
+**[monitoring-prometheus-grafana-loki](https://github.com/guptagautam768/monitoring-prometheus-grafana-loki)**: observability proof of concept for a Spring Boot service. Prometheus scrapes Micrometer metrics, Promtail ships structured JSON logs to Loki, and a pre-provisioned Grafana dashboard shows both. One command to run with Docker Compose.
 *Java 17 · Spring Boot · Micrometer · Prometheus · Loki · Promtail · Grafana · Docker Compose*
 
 **[guptagautam768.github.io](https://github.com/guptagautam768/guptagautam768.github.io)**: source for my portfolio site, a static HTML/CSS page on GitHub Pages.

@@ -1,15 +1,26 @@
-## Hi, I'm Gautam Gupta
+<h1 align="center">Hi, I'm Gautam Gupta 👋</h1>
 
-**Staff Engineer / Tech Lead at [Taggd](https://taggd.in)** · Java, Spring Boot, microservices, AWS, GenAI · Gurgaon, India
+<p align="center">
+  <a href="https://github.com/guptagautam768">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0A66C2&center=true&vCenter=true&width=640&lines=Staff+Engineer+%2F+Tech+Lead+%40+Taggd;Java+%C2%B7+Spring+Boot+%C2%B7+Microservices+%C2%B7+AWS;Building+GenAI+systems+with+Spring+AI%2C+RAG+%26+MCP;10K%2B+TPS+platforms+that+stay+fast+under+load" alt="Typing intro" />
+  </a>
+</p>
 
-I build enterprise Java systems that stay fast under load, and I lead the engineers who run them. 8+ years across Java, Spring Boot, microservices and AWS, and lately GenAI with Spring AI, OpenAI, RAG, agents and MCP. I currently lead a team of 8 engineers.
+<p align="center">
+  <a href="https://guptagautam768.github.io"><img src="https://img.shields.io/badge/Portfolio-guptagautam768.github.io-0A66C2?style=for-the-badge" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/gautam-gupta-78bb09b7"><img src="https://img.shields.io/badge/LinkedIn-Gautam%20Gupta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <img src="https://komarev.com/ghpvc/?username=guptagautam768&style=for-the-badge&color=0A66C2&label=Profile+views" alt="Profile views" />
+</p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-guptagautam768.github.io-0A66C2?style=flat-square)](https://guptagautam768.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gautam%20Gupta-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gautam-gupta-78bb09b7)
+I build enterprise Java systems that stay fast under load, and I lead the engineers who run them. 8+ years across Java, Spring Boot, microservices and AWS, and lately GenAI with Spring AI, OpenAI, RAG, agents and MCP. I currently lead a team of 8 engineers in Gurgaon, India.
+
+### 🔭 Currently building
+
+**[jvm-llm-gateway](https://github.com/guptagautam768/jvm-llm-gateway)**: an open-source, OpenAI-compatible LLM gateway in Java 21 / Spring WebFlux, with multi-provider routing and fallback (OpenAI, Anthropic), Resilience4j, Redis semantic caching, per-tenant rate limits and budgets, PII redaction, and full observability. Built spec-first: every decision is in a written [SDR and ADRs](https://github.com/guptagautam768/jvm-llm-gateway/tree/main/docs).
 
 ---
 
-### Impact highlights
+### ⚡ Impact highlights
 
 - **10K+ TPS** platform in production
 - **2.5s → 600ms** API latency through performance tuning
@@ -18,7 +29,7 @@ I build enterprise Java systems that stay fast under load, and I lead the engine
 - **80%+ test coverage** on critical modules
 - **Leading 8 engineers** as Tech Lead at Taggd
 
-### Experience
+### 💼 Experience
 
 | Role | Company | Period |
 |---|---|---|
@@ -30,24 +41,24 @@ I build enterprise Java systems that stay fast under load, and I lead the engine
 
 MCA, 2018
 
-### Tech stack
+### 🛠️ Tech stack
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-555555?style=flat-square)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
-![REST](https://img.shields.io/badge/REST%20APIs-555555?style=flat-square)
+<p>
+  <img src="https://skillicons.dev/icons?i=java,spring,aws,redis,postgres,graphql,docker,gradle,githubactions,prometheus,grafana&perline=11" alt="Tech stack icons" />
+</p>
 
 **GenAI:**
 ![Spring AI](https://img.shields.io/badge/Spring%20AI-6DB33F?style=flat-square&logo=spring&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-555555?style=flat-square)
 ![AI Agents](https://img.shields.io/badge/AI%20Agents-555555?style=flat-square)
 ![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-555555?style=flat-square)
 
-### Featured projects
+### 📌 Featured projects
+
+**[jvm-llm-gateway](https://github.com/guptagautam768/jvm-llm-gateway)**: OpenAI-compatible LLM gateway with routing, fallback, caching, rate limits and observability (in active development).
+*Java 21 · Spring Boot · WebFlux · Resilience4j · Redis Stack · PostgreSQL · Testcontainers · GitHub Actions*
 
 **[resume-jd-matcher](https://github.com/guptagautam768/resume-jd-matcher)**: explainable, RAG-based ranking of PDF resumes against a job description. It embeds resumes into PostgreSQL/pgvector, retrieves the relevant evidence, and asks an LLM for a score with strengths, gaps and a rationale. The same actions are exposed as an MCP server so AI agents can call them as tools.
 *Java 21 · Spring Boot 3.5 · Spring AI · OpenAI · pgvector · Flyway · Testcontainers · Docker · GitHub Actions*
@@ -57,18 +68,20 @@ MCA, 2018
 
 **[guptagautam768.github.io](https://github.com/guptagautam768/guptagautam768.github.io)**: source for my portfolio site, a static HTML/CSS page on GitHub Pages.
 
-### Certifications
+### 🏅 Certifications
 
 - Generative AI Mastermind, Outskill (Sep 2026)
 - Introduction to Agent Skills, Anthropic
 - Introduction to Model Context Protocol, Anthropic
 - Claude 101, Anthropic
 
-### Get in touch
+### 📫 Get in touch
 
 Open to conversations about staff and tech-lead roles.
 [LinkedIn](https://www.linkedin.com/in/gautam-gupta-78bb09b7) · [Portfolio](https://guptagautam768.github.io)
 
-<!-- Optional stats card. It shows little with only a few public repos, so consider adding it later:
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=guptagautam768&show_icons=true&hide_border=true)
--->
+### 📊 GitHub activity
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=guptagautam768&hide_border=true" alt="GitHub streak" />
+</p>

@@ -14,9 +14,27 @@
 
 I build enterprise Java systems that stay fast under load, and I lead the engineers who run them. 8+ years across Java, Spring Boot, microservices and AWS, and lately GenAI with Spring AI, OpenAI, RAG, agents and MCP. I currently lead a team of 8 engineers in Gurgaon, India.
 
-### 🔭 Currently building
+### 🚀 Featured project
 
-**[jvm-llm-gateway](https://github.com/guptagautam768/jvm-llm-gateway)**: an open-source, OpenAI-compatible LLM gateway in Java 21 / Spring WebFlux, with multi-provider routing and fallback (OpenAI, Anthropic), Resilience4j, Redis semantic caching, per-tenant rate limits and budgets, PII redaction, and full observability. Built spec-first: every decision is in a written [SDR and ADRs](https://github.com/guptagautam768/jvm-llm-gateway/tree/main/docs).
+**[jvm-llm-gateway](https://github.com/guptagautam768/jvm-llm-gateway)** ([v1.0.0](https://github.com/guptagautam768/jvm-llm-gateway/releases/tag/v1.0.0)): an open-source, OpenAI-compatible LLM gateway in Java 21 / Spring Boot 3.5 WebFlux that gives an OpenAI SDK one base URL and owns provider access, alias routing, tenancy, caching, and PII redaction.
+
+![Java 21](https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot 3.5](https://img.shields.io/badge/Spring%20Boot-3.5-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![WebFlux](https://img.shields.io/badge/WebFlux-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Resilience4j](https://img.shields.io/badge/Resilience4j-555555?style=flat-square)
+![Redis](https://img.shields.io/badge/Redis-D82C20?style=flat-square&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+- **Provider routing.** OpenAI, Anthropic, and Ollama WebClient adapters, YAML aliases, and Resilience4j retry, circuit breaker, and fallback.
+- **Tenancy and spend.** Multi-tenant API keys stored as SHA-256, Redis rate limits, token and cost budgets, and an async Postgres usage ledger that stores no prompt or completion text.
+- **Cache and guardrails.** Exact and semantic Redis response cache for non-streaming chat, and regex PII redaction before a prompt leaves the process.
+- **Operations.** `gateway.*` Micrometer metrics, optional OTLP traces, and Prometheus and Grafana on the Compose observability profile.
+- **Embeddings.** `POST /v1/embeddings` shares auth, rate limits, budgets, the usage ledger, and redaction with chat. Embedding responses are not cached.
+- **Spec-driven delivery.** [SDR-0001](https://github.com/guptagautam768/jvm-llm-gateway/blob/main/docs/sdr/0001-jvm-llm-gateway-sdr.md) and [15 accepted ADRs](https://github.com/guptagautam768/jvm-llm-gateway/tree/main/docs/adr). 183 tests, GitHub Actions CI, and CodeQL.
+
+[Repository](https://github.com/guptagautam768/jvm-llm-gateway) · [v1.0.0 release](https://github.com/guptagautam768/jvm-llm-gateway/releases/tag/v1.0.0) · [ADRs](https://github.com/guptagautam768/jvm-llm-gateway/tree/main/docs/adr)
 
 ---
 
@@ -57,8 +75,8 @@ MCA, 2018
 
 ### 📌 Featured projects
 
-**[jvm-llm-gateway](https://github.com/guptagautam768/jvm-llm-gateway)**: OpenAI-compatible LLM gateway with routing, fallback, caching, rate limits and observability (in active development).
-*Java 21 · Spring Boot · WebFlux · Resilience4j · Redis Stack · PostgreSQL · Testcontainers · GitHub Actions*
+**[jvm-llm-gateway](https://github.com/guptagautam768/jvm-llm-gateway)** ([v1.0.0](https://github.com/guptagautam768/jvm-llm-gateway/releases/tag/v1.0.0)): OpenAI-compatible LLM gateway with routing, fallback, caching, rate limits and observability.
+*Java 21 · Spring Boot 3.5 · WebFlux · Resilience4j · Redis Stack · PostgreSQL · Testcontainers · GitHub Actions*
 
 **[resume-jd-matcher](https://github.com/guptagautam768/resume-jd-matcher)**: explainable, RAG-based ranking of PDF resumes against a job description. It embeds resumes into PostgreSQL/pgvector, retrieves the relevant evidence, and asks an LLM for a score with strengths, gaps and a rationale. The same actions are exposed as an MCP server so AI agents can call them as tools.
 *Java 21 · Spring Boot 3.5 · Spring AI · OpenAI · pgvector · Flyway · Testcontainers · Docker · GitHub Actions*
